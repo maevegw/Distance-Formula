@@ -1,0 +1,15 @@
+#Distance Formula Solver
+
+print("Distance from (x1,x2) to (x2,y2)")
+
+#inputs
+
+a = float(input("x1 = "))
+b = float(input("y1 = "))
+c = float(input("x2 = "))
+d = float(input("y2 = "))
+
+#output
+
+e = float(((c-a) ** 2 + (d-b) ** 2) ** (1/2))
+print("Distance = ", e)
